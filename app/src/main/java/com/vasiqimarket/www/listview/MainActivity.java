@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
         ListView lstview=(ListView)findViewById(R.id.lstview);
         final ArrayList<String> araye=new ArrayList<String>();
         araye.add("ایمان");
-        araye.add("مبینا");
+        araye.add("رضا");
         araye.add("علیرضا");
-        araye.add("زهره");
+        araye.add("محمد");
         final ArrayAdapter<String> adapter=new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,araye);
         btnadd.setOnClickListener(new View.OnClickListener() {
             @Override
